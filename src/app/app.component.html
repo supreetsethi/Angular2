@@ -1,0 +1,6 @@
+<section class="todoapp">
+  <app-my-app-header (add)="onAddMember($event)"></app-my-app-header>
+<app-my-app-list [myApps]="myApps" (toggleComplete)="onToggleComplete($event)"
+                 (remove)="onRemoveTodo($event)"></app-my-app-list>
+  <!--<app-todo-list-footer [myApps]="myApps"></app-todo-list-footer>-->
+</section>

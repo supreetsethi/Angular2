@@ -1,0 +1,7 @@
+
+<select [(ngModel)]= "myApp.Gender"  class="form-control" name="Gender">
+  <option *ngFor="let gender of genders" value="{{gender.id}}" >
+    {{gender.name}}
+  </option>
+</select>
+

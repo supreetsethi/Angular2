@@ -1,0 +1,22 @@
+ <tr>
+      <td><input class="toggle" type="checkbox" (click)="toggleComplete(myApp)" [checked]="myApp.complete"></td>
+    <td>
+      {{myApp.Name}}
+     </td>
+     <td>
+       {{myApp.DOB}}
+      </td>
+      <td>
+       {{myApp.Gender}}
+      </td>
+      <td>
+       {{myApp.AdharCard}}
+      </td>
+     <td>
+      <button class="btn-link" (click)="remove(myApp)">Delete</button>
+      <button class="btn-link" (click)="Edit(myApp)">Edit</button>
+      </td>
+  </tr>
+
+
+
